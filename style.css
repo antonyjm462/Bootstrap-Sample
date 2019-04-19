@@ -1,0 +1,145 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-item {
+    margin: 0 20px;
+}
+
+#main{
+    background: url("./image/background.png");
+    background-size: cover;
+    height: 120vh;
+}
+
+.header-main{
+    margin-top: 50px;
+}
+
+.header-info{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-top: 50px;
+    color: white;
+}
+
+.btn-d{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.over{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.info{
+    width: 70%;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.info-head{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; 
+}
+
+.overlogo{
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.over,.info,.info-head,.overlogo{
+    padding: 1rem;
+}
+
+#testimonials{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+.section-head{
+    font-size: 3rem;
+    padding : 2rem;
+    text-align: center;
+
+}
+
+.author{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+
+}
+
+.text{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.box{
+    box-shadow: 13px 14px 85px -48px rgba(0,0,0,0.75);
+}
+
+.card{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card btn{
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.card-body{
+    padding: 4% 8%;
+}
+
+#cta{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 8rem;
+    margin-top: 8rem;
+    color: blanchedalmond;
+}
+
+.cta-head{
+    font-weight: bold;
+}
+
+#footer{
+    height: 200px;
+    text-align: center;
+    }
+
+.icon{
+    color: blueviolet;
+    font-size: 3rem;
+    padding: 5% 7%;
+}
+
+@media only screen and (max-width: 1000px){
+    .iphone{
+        display: none;
+    }
+
+    .card{
+        margin: 20px 0px;
+    }
+}
